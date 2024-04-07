@@ -1,4 +1,4 @@
-# AxaSearch
+# SearchEngine
 
 A simple Search Engine written in Python
 
@@ -14,4 +14,4 @@ After that run ```python3 Scraper/Scraper.py``` to run the Scraper and create yo
 
 Then you only have to start the Server through ```python3 Server.py```.
 
-Enjoy!
+Done!

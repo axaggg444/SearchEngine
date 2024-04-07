@@ -1,21 +1,3 @@
 {
-    "Whitelist": [
-        "bk-wesel.de",
-        "google.com",
-        "ge-emmerich.de",
-        "emmerich.de",
-        "Roblox.com",
-        "wikipedia.org",
-        "youtube.com",
-        "kolping.de",
-        "instagram.com",
-        "facebook.com",
-        "reddit.com",
-        "twitch.tv",
-        "duckduckgo.com",
-        "twitter.com",
-        "amazon.com",
-        "openai.com",
-        "discord.com"
-    ]
+    "Whitelist": []
 }
