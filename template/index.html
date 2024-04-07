@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="static/css/style.css" rel="stylesheet" type="text/css">
+        <title>BadSearch</title>
+    </head>
+    <body>
+        <header>
+            <div id="head">
+                <h1>BadSearch</h1>
+                <h3>By axaggg444</h3>
+            </div>
+        </header>
+        <main>
+            <form method="POST" action="{{ url_for('index') }}">
+                <input type="text" name="search" placeholder="Search here...">
+            </form>
+            <div id="results">
+                {% for i in resultscomp %}
+                    <h3 class="url"><a href="https://{{ i.url }}">{{ i.url }}</a></h3><br>
+                    <p>{{ i.title }}</p>
+                    <hr>
+                {% endfor %}
+            </div>
+        </main>
+        <footer>
+            <a href="{{ url_for('about') }}">About</a>
+        </footer>
+    </body>
+</html>
