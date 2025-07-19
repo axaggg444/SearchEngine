@@ -8,6 +8,8 @@ Simply download the files and create a new virtual environment with ```python3 -
 
 After that activate the venv with ```source venv/bin/activate``` under linux and under windows with ```./venv/Scripts/activate```.
 
+Now you have to install the required libraries using ```pip install -r requirements.txt```
+
 Next you have to edit the Whitelist under Scraper/data/Whitelist.json, you got to add your domains like this:```Whitelist: ["somedomain.com"]``` to add your domains.
 
 After that run ```python3 Scraper/Scraper.py``` to run the Scraper and create your database.
